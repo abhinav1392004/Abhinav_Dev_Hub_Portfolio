@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: "poppins", sans-serif;
+}
+
+h1, h2{
+  font-family: "roboto", sans-serif;
+}
