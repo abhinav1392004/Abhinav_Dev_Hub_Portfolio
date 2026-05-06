@@ -8,11 +8,13 @@ import Projects from "./section/Projects"
 import Skills from "./section/Skills"
 import Testimonial from "./section/Testimonial"
 import ParticlesBackground from "./components/ParticlesBackground"
+import CustomCursor from "./components/CustomCursor"
 
 
 export default function App(){
   return(
     <div className="relative gradient text-white">
+      <CustomCursor/>
       <ParticlesBackground/>
       <Navbar/>
       <Home/>
