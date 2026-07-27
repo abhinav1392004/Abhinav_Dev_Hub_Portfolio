@@ -14,7 +14,7 @@ export default function About(){
 
   return(
     <section id="about"
-    className="min-h-screen w-full flex items-center relative bg-black text-white overflow-hidden">
+    className="min-h-screen w-full flex items-center relative bg-black text-white ">
       <div
           className="absolute -top-32 -left-32
           w-[40vw] sm:w-[35vw] md:w-[40vw]

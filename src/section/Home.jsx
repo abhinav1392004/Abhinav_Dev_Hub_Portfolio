@@ -46,7 +46,7 @@ export default function Home(){
     <section id="home" className="h-screen w-full relative bg-black overflow-hidden">
       <ParticleBackground/>
       <div>
-        <div
+        {/* <div
           className="absolute -top-32 -left-32
           w-[70vw] sm:w-[z-500vw] md:w-[40vw]
           h-[70vw] sm:h-[z-50vw] md:h-[40vw]
@@ -56,7 +56,7 @@ export default function Home(){
           opacity-30 sm:opacity-20 md:opacity-10
           blur-[100px] sm:blur-[130px] md:blur-[150px]
           animate-pulse"
-        ></div>
+        ></div> */}
         
       </div>
 
@@ -143,7 +143,7 @@ export default function Home(){
         <div className="relative hidden lg:flex items-center justify-center h-full">
     
           <div
-            className="absolute inset-0 rounded-full blur-[70px] opacity-30 scale-90 -z-10"
+            className="absolute inset-0 rounded-full blur-[70px] opacity-30 scale-90 -z-10 animate-pulse"
             style={{
               background:
                 "radial-gradient(circle, rgba(28,216,210,0.6) 0%, rgba(0,191,143,0.35) 45%, transparent 75%)",
@@ -152,7 +152,7 @@ export default function Home(){
           <motion.img
             src={Avatar}
             alt="Avatar"
-            className="w-[420px] xl:w-[500px] 2xl:w-[600px] object-contain"
+            className="w-[420px] xl:w-[500px] 2xl:w-[600px] object-contain "
             initial={{ opacity: 0, x: 50 }} 
             animate={{ opacity: 1, x: 0 }}
             transition={{delay:0.2, duration: 0.8 }}
