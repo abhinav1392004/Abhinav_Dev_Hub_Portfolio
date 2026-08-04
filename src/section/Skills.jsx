@@ -101,21 +101,21 @@ export default function Skills(){
         Modern Application | Modern Technologies
       </motion.p>
 
-      <div className='relative w-full overflow-hidden'>
+      <div className="relative w-full overflow-hidden">
         <motion.div 
         ref={trackRef}
-        className='flex gap-10 text-6xl text-[#1cd8d2]'
+        className="flex gap-10 text-6xl text-[#1cd8d2]"
         style={{x, whiteSpace: "nowrap", willChange:"transform"}}
         >
           {repeated.map((s,i)=>(
             <div
-            key={i} className='flex flex-col items-center gap-2 min-w-[120px]'
+            key={i} className="flex flex-col items-center gap-2 min-w-[120px]"
             aria-label={s.name}
             title={s.name}>
-              <span className='hover:scale-125 transition-transform duration-300'>
+              <span className="hover:scale-125 transition-transform duration-300">
                 {s.icon}
               </span>
-              <p className='text-sm'>{s.name}</p>
+              <p className="text-sm">{s.name}</p>
             </div>
           ))}
         </motion.div>

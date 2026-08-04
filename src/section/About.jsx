@@ -42,7 +42,7 @@ export default function About(){
           <img src={Profile} alt="profile" className="absolute inset-0"/>
         </motion.div>
 
-        <div flex-1 flex flex-col justify-center text-center md:text-left>
+        <div className="flex-1 flex flex-col justify-center text-center md:text-left">
           <h2 className="text-4xl sm:text-5xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-[#1cd8d2] via-[#00bf8f] to-[#1cd8d2]">
             Abhinav Kumar
           </h2>
